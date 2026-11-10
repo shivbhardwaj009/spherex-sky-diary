@@ -235,3 +235,4 @@ def normalize_epochs(
         )
 
     return normalized_stack, scale_factors
+

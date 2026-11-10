@@ -8,7 +8,7 @@ background:
   sigma_clip_maxiters: 5
 
 masking:
-  outlier_sigma: 5.0
+  outlier_sigma: 25.0
   local_median_filter_size: 5
   grow_pixels: 2
   bit_adapter_bad: 1
@@ -33,3 +33,4 @@ wavelength:
 output:
   processed_dir: "data/output/processed"
   file_format: "npz"
+

@@ -84,3 +84,4 @@ def wavelength_difference_map(
         )
 
     return epoch_a.wavelength_map - epoch_b.wavelength_map
+

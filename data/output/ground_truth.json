@@ -1,9 +1,9 @@
 {
   "is_synthetic": true,
   "seed": 42,
-  "generated_at": "2026-11-10T15:05:41.141546+00:00",
+  "generated_at": "2026-11-10T15:20:21.900999+00:00",
   "region": {
-    "name": "test",
+    "name": "ecliptic_plane_test",
     "ra_center": 60.0,
     "dec_center": 20.0,
     "radius_deg": 0.2

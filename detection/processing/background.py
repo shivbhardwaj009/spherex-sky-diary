@@ -121,3 +121,4 @@ def subtract_background(
         date=epoch.date,
         metadata=new_metadata,
     )
+

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "pipeline_version": "v1.0-processing",
-  "processed_at": "2026-11-10T15:03:11.244580+00:00",
+  "processed_at": "2026-11-10T15:20:22.620745+00:00",
   "is_synthetic": true,
   "region": {
     "name": "ecliptic_plane_test",
@@ -20,203 +20,203 @@
       "epoch_id": "mock_epoch_01",
       "date": "2026-01-16T00:39:00+00:00",
       "file": "data/output/processed/mock_epoch_01.npz",
-      "normalization_factor": 1.00986
+      "normalization_factor": 1.0095
     },
     {
       "epoch_id": "mock_epoch_02",
       "date": "2026-01-22T19:35:00+00:00",
       "file": "data/output/processed/mock_epoch_02.npz",
-      "normalization_factor": 0.98583
+      "normalization_factor": 0.98487
     },
     {
       "epoch_id": "mock_epoch_03",
       "date": "2026-01-23T07:42:00+00:00",
       "file": "data/output/processed/mock_epoch_03.npz",
-      "normalization_factor": 0.98826
+      "normalization_factor": 0.98989
     },
     {
       "epoch_id": "mock_epoch_04",
       "date": "2026-02-07T11:05:00+00:00",
       "file": "data/output/processed/mock_epoch_04.npz",
-      "normalization_factor": 1.02911
+      "normalization_factor": 1.03027
     },
     {
       "epoch_id": "mock_epoch_05",
       "date": "2026-04-19T14:49:00+00:00",
       "file": "data/output/processed/mock_epoch_05.npz",
-      "normalization_factor": 1.02981
+      "normalization_factor": 1.03331
     }
   ],
   "normalization_factors": {
-    "mock_epoch_01": 1.00986,
-    "mock_epoch_02": 0.98583,
-    "mock_epoch_03": 0.98826,
-    "mock_epoch_04": 1.02911,
-    "mock_epoch_05": 1.02981
+    "mock_epoch_01": 1.0095,
+    "mock_epoch_02": 0.98487,
+    "mock_epoch_03": 0.98989,
+    "mock_epoch_04": 1.03027,
+    "mock_epoch_05": 1.03331
   },
   "reference_stars_count": 27,
   "reference_stars": [
     {
       "x": 16.57,
       "y": 23.8,
-      "flux_mean": 2005.03,
-      "scatter": 0.0268
+      "flux_mean": 2004.67,
+      "scatter": 0.0269
     },
     {
       "x": 71.62,
       "y": 50.95,
-      "flux_mean": 586.63,
+      "flux_mean": 586.6,
       "scatter": 0.0198
     },
     {
       "x": 16.42,
       "y": 104.99,
-      "flux_mean": 450.14,
-      "scatter": 0.0213
+      "flux_mean": 449.51,
+      "scatter": 0.0212
     },
     {
       "x": 72.84,
       "y": 83.22,
-      "flux_mean": 381.06,
-      "scatter": 0.0377
+      "flux_mean": 381.11,
+      "scatter": 0.0376
     },
     {
       "x": 86.85,
       "y": 102.71,
-      "flux_mean": 328.44,
-      "scatter": 0.0265
+      "flux_mean": 328.04,
+      "scatter": 0.0264
     },
     {
       "x": 90.46,
       "y": 51.01,
-      "flux_mean": 292.95,
-      "scatter": 0.0344
+      "flux_mean": 292.88,
+      "scatter": 0.0345
     },
     {
       "x": 92.02,
       "y": 33.82,
-      "flux_mean": 286.97,
-      "scatter": 0.0217
+      "flux_mean": 286.85,
+      "scatter": 0.0214
     },
     {
       "x": 97.6,
       "y": 96.68,
-      "flux_mean": 250.22,
-      "scatter": 0.0354
+      "flux_mean": 249.92,
+      "scatter": 0.0368
     },
     {
       "x": 27.72,
       "y": 81.73,
-      "flux_mean": 229.49,
-      "scatter": 0.1423
+      "flux_mean": 229.33,
+      "scatter": 0.1413
     },
     {
       "x": 26.57,
       "y": 102.73,
-      "flux_mean": 194.19,
+      "flux_mean": 193.55,
       "scatter": 0.0675
     },
     {
       "x": 83.88,
-      "y": 71.89,
-      "flux_mean": 190.41,
-      "scatter": 0.0636
+      "y": 71.9,
+      "flux_mean": 190.16,
+      "scatter": 0.0637
     },
     {
       "x": 46.59,
       "y": 49.61,
-      "flux_mean": 143.43,
-      "scatter": 0.1902
+      "flux_mean": 143.37,
+      "scatter": 0.1903
     },
     {
       "x": 103.98,
       "y": 16.73,
-      "flux_mean": 134.21,
+      "flux_mean": 134.17,
       "scatter": 0.0864
     },
     {
       "x": 21.23,
       "y": 15.29,
-      "flux_mean": 131.11,
-      "scatter": 0.0837
+      "flux_mean": 130.7,
+      "scatter": 0.0829
     },
     {
       "x": 66.45,
       "y": 99.56,
-      "flux_mean": 122.33,
+      "flux_mean": 122.31,
       "scatter": 0.1215
     },
     {
       "x": 58.02,
       "y": 24.21,
-      "flux_mean": 121.22,
-      "scatter": 0.1308
+      "flux_mean": 121.3,
+      "scatter": 0.1305
     },
     {
       "x": 88.92,
       "y": 16.99,
-      "flux_mean": 102.02,
-      "scatter": 0.1055
+      "flux_mean": 102.0,
+      "scatter": 0.1056
     },
     {
       "x": 59.45,
       "y": 89.28,
-      "flux_mean": 95.68,
-      "scatter": 0.1015
+      "flux_mean": 95.59,
+      "scatter": 0.1026
     },
     {
       "x": 53.81,
       "y": 57.72,
-      "flux_mean": 94.79,
-      "scatter": 0.058
+      "flux_mean": 94.77,
+      "scatter": 0.0579
     },
     {
       "x": 44.66,
       "y": 81.94,
-      "flux_mean": 92.34,
-      "scatter": 0.1199
+      "flux_mean": 92.23,
+      "scatter": 0.1225
     },
     {
       "x": 44.24,
       "y": 65.52,
-      "flux_mean": 92.25,
-      "scatter": 0.0561
+      "flux_mean": 91.99,
+      "scatter": 0.0584
     },
     {
       "x": 20.3,
       "y": 40.42,
-      "flux_mean": 91.28,
-      "scatter": 0.1168
+      "flux_mean": 91.12,
+      "scatter": 0.1155
     },
     {
       "x": 56.91,
       "y": 34.89,
-      "flux_mean": 86.13,
-      "scatter": 0.0643
+      "flux_mean": 86.15,
+      "scatter": 0.0652
     },
     {
       "x": 31.67,
       "y": 45.79,
-      "flux_mean": 80.62,
-      "scatter": 0.1221
+      "flux_mean": 80.38,
+      "scatter": 0.1206
     },
     {
       "x": 66.7,
       "y": 16.88,
-      "flux_mean": 79.55,
-      "scatter": 0.1426
+      "flux_mean": 79.56,
+      "scatter": 0.1423
     },
     {
       "x": 104.89,
       "y": 71.17,
-      "flux_mean": 77.49,
-      "scatter": 0.1755
+      "flux_mean": 77.43,
+      "scatter": 0.1763
     },
     {
       "x": 48.77,
       "y": 12.23,
-      "flux_mean": 67.57,
-      "scatter": 0.1562
+      "flux_mean": 67.36,
+      "scatter": 0.1563
     }
   ],
   "config_used": {
@@ -243,7 +243,7 @@
       "sigma_clip_maxiters": 5
     },
     "masking": {
-      "outlier_sigma": 5.0,
+      "outlier_sigma": 25.0,
       "local_median_filter_size": 5,
       "grow_pixels": 2,
       "bit_adapter_bad": 1,

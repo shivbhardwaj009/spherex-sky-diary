@@ -1,0 +1,44 @@
+# SPHEREx Sky Diary — Mover Detection Configuration (Module 3)
+# All algorithmic thresholds and parameters for static modeling, differencing,
+# source extraction, tracklet linking, filters, and scoring are defined here.
+
+static_model:
+  wavelength_tol_um: 0.15
+  min_comparable_epochs: 2
+
+difference:
+  produce_pairwise: true
+
+extraction:
+  snr_threshold: 3.5
+  fwhm: 3.0
+  min_pixels: 5
+  bright_star_mask_radius_px: 6.0
+  bright_star_flux_threshold: 1200.0
+
+linking:
+  max_rate_arcsec_per_day: 45.0
+  min_rate_arcsec_per_day: 2.0
+  match_radius_arcsec: 5.5
+  min_detections: 3
+  max_fit_residual_arcsec: 3.5
+
+filters:
+  min_motion_arcsec: 3.0
+  max_residual_arcsec: 3.0
+  filter_response_corr_threshold: 0.80
+
+scoring:
+  weights:
+    snr: 0.35
+    detections: 0.30
+    residual: 0.25
+    filter_response: 0.10
+  snr_scale: 15.0
+  max_residual_scale: 3.0
+
+output:
+  cutout_size_px: 48
+  cutouts_dir: "data/output/cutouts"
+  candidates_file: "data/output/candidates.json"
+  eval_file: "data/output/detection_eval.json"
