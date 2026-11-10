@@ -1,4 +1,4 @@
-.PHONY: setup test mock processing detection matching spectra pipeline web help
+.PHONY: setup test mock processing detection matching spectra pipeline web web-test help
 
 PYTHON ?= python
 
@@ -13,7 +13,8 @@ help:
 	@echo "  matching   - Run Module 4 catalog matching"
 	@echo "  spectra    - Run Module 5 spectral extraction"
 	@echo "  pipeline   - Run complete offline scientific pipeline"
-	@echo "  web        - Start web application"
+	@echo "  web        - Start Next.js web application"
+	@echo "  web-test   - Run Next.js frontend test suite"
 
 setup:
 	$(PYTHON) -m pip install -r requirements.txt
@@ -43,5 +44,8 @@ pipeline:
 	$(PYTHON) -m spectra --config config/settings.yaml
 
 web:
-	npm run dev
+	cd web && npm run dev
+
+web-test:
+	cd web && npm test
 

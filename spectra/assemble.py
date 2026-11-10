@@ -130,3 +130,4 @@ def build_spectrum(
         "flux": out_fluxes,
         "flux_err": out_flux_errs,
     }
+

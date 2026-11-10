@@ -77,3 +77,4 @@ output:
   spectra_dir: "data/output/spectra"
   crosscheck_plot: "data/output/crosscheck.png"
   eval_file: "data/output/spectral_eval.json"
+

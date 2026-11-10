@@ -74,3 +74,4 @@ Static spectra are generated and saved to `data/output/spectra/<target>.json` fo
    - `TODO(VERIFY)`: Verify column headers in CSV files exported from the IPAC/IRSA Spectrophotometry web tool.
 4. **Target Proper Motion Epochs:**
    - `TODO(VERIFY)`: For high proper-motion demonstration targets (Barnard's Star ~10.4"/yr, WISE 0855 ~8.1"/yr), ensure proper motion propagation from Gaia DR3 (epoch 2016.0) to SPHEREx survey epoch (~2026.0).
+

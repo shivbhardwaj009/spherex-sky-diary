@@ -179,3 +179,4 @@ def compare_snr_gain(
         "stacked_snr": round(float(stacked_snr), 3),
         "snr_gain": round(float(gain), 3),
     }
+

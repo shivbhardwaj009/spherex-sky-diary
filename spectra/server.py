@@ -108,3 +108,4 @@ def get_spectrum_endpoint(
         "is_synthetic": True,
         "spectrum": spectrum,
     }
+
