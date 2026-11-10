@@ -1,24 +1,60 @@
-# Logs
-logs
-*.log
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# Environments
+.env
+.env.*
+!.env.example
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Node & Web
+node_modules/
+.next/
+out/
+dist/
+dist-ssr/
+*.local
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Output large files / raw data
+data/output/cutouts/
+data/output/*.fits
+data/output/*.tar.gz
+data/raw/
 
-# Editor directories and files
+# IDE / OS
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+*.swp
+*.swo

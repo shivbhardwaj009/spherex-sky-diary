@@ -1,0 +1,9 @@
+data_source: mock
+region:
+  name: "ecliptic_plane_test"
+  ra_center: 60.0
+  dec_center: 20.0
+  radius_deg: 0.2
+fov_deg: 0.2
+output_dir: data/output
+seed: 42
