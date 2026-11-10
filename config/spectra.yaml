@@ -1,0 +1,79 @@
+# SPHEREx Sky Diary — Spectral Extraction Configuration (Module 5)
+#
+# Configures aperture photometry, wavelength assignment, spectral binning,
+# detector band stacking, and demo challenge targets.
+
+photometry:
+  # Circular aperture radius in pixels
+  # At SPHEREx pixel scale (~6.2 arcsec/pixel) and PSF sigma ~1.5 pixels,
+  # 3.5 pixels covers ~2.3 * sigma (>90% of point-source flux).
+  aperture_radius_pix: 3.5
+
+  # Sky background circular annulus inner and outer radii in pixels
+  annulus_inner_pix: 6.0
+  annulus_outer_pix: 10.0
+
+  # Minimum fraction of unmasked pixels required within aperture
+  min_valid_fraction: 0.75
+
+  # Bitmask flags considered invalid (1=bad pixel, 2=cosmic ray, 4=edge/no-coverage)
+  mask_invalid_bits: 7
+
+  # Optional aperture correction factor (TODO(VERIFY) with flight PSF model; default off)
+  enable_aperture_correction: false
+  aperture_correction_factor: 1.15
+
+assembly:
+  # Spectral binning width in microns
+  bin_width_um: 0.15
+
+  # Minimum number of valid measurements per bin
+  min_measurements_per_bin: 1
+
+  # Minimum number of valid measurement points across epochs to form a spectrum
+  min_valid_measurements: 2
+
+  # Sigma-clipping threshold for rejecting outliers within a spectral bin
+  sigma_clip_outliers: 3.0
+
+stacking:
+  # Option to co-add/stack images within the same SPHEREx detector band before photometry
+  stack_by_band: false
+
+  # SPHEREx 6 physical detector bands in microns (TODO(VERIFY) official flight band boundaries)
+  bands:
+    band_1: [0.75, 1.11]
+    band_2: [1.11, 1.64]
+    band_3: [1.64, 2.42]
+    band_4: [2.42, 3.82]
+    band_5: [3.82, 4.42]
+    band_6: [4.42, 5.00]
+
+demo_targets:
+  # High-priority NASA Space Apps Challenge demonstration targets
+  - name: "Barnard's Star"
+    ra: 269.45208
+    dec: 4.69339
+    notes: "High proper-motion red dwarf"
+  - name: "Epsilon Indi B"
+    ra: 330.84042
+    dec: -56.78611
+    notes: "Nearby brown dwarf binary system"
+  - name: "WISE 0855"
+    ra: 133.79513
+    dec: -7.24515
+    notes: "Coldest known brown dwarf (Y-dwarf) - RA 08h55m10.831s, Dec -07d14m42.53s"
+  - name: "RW Aurigae"
+    ra: 77.10625
+    dec: 30.40139
+    notes: "Young stellar object with circumstellar disk"
+  - name: "R Draconis"
+    ra: 248.33792
+    dec: 66.86861
+    notes: "Mira-type long-period variable star"
+
+output:
+  candidates_file: "data/output/candidates.json"
+  spectra_dir: "data/output/spectra"
+  crosscheck_plot: "data/output/crosscheck.png"
+  eval_file: "data/output/spectral_eval.json"

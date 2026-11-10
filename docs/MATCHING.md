@@ -85,3 +85,4 @@ As permitted by the design rules, four optional fields were added to `docs/schem
    - `TODO(VERIFY)`: Verify whether SkyBoT `RA_rate` column represents true angular motion on the sky ($d\alpha/dt \cdot \cos\delta$) or coordinate motion ($d\alpha/dt$). Current implementation treats it as arcsec/hr and converts to arcsec/day.
 3. **Apparent Magnitude Calibration:**
    - `TODO(VERIFY)`: SkyBoT provides Johnson $V$-band magnitudes. For SPHEREx near-infrared bands (0.75 – 5.0 µm), Solar System asteroid reflectance spectra peak with red/neutral slopes and infrared thermal emission tails. Verify infrared color transformations ($V - J$, $V - K$) for magnitude cutoffs.
+

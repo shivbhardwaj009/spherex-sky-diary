@@ -1,9 +1,9 @@
 {
   "is_synthetic": true,
   "seed": 42,
-  "generated_at": "2026-11-10T15:41:23.256283+00:00",
+  "generated_at": "2026-11-10T15:53:15.011920+00:00",
   "region": {
-    "name": "ecliptic_plane_test",
+    "name": "test_spectra_patch",
     "ra_center": 60.0,
     "dec_center": 20.0,
     "radius_deg": 0.2

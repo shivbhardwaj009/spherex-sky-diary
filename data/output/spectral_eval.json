@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-11-10T15:51:18.890185+00:00",
+  "total_movers": 25,
+  "spectra_extracted": 13,
+  "spectra_none": 12,
+  "mean_channels_per_spectrum": 2.69,
+  "demo_targets": [
+    {
+      "name": "Barnard's Star",
+      "ra": 269.45208,
+      "dec": 4.69339,
+      "file": "barnards_star.json",
+      "channels": 5
+    },
+    {
+      "name": "Epsilon Indi B",
+      "ra": 330.84042,
+      "dec": -56.78611,
+      "file": "epsilon_indi_b.json",
+      "channels": 5
+    },
+    {
+      "name": "WISE 0855",
+      "ra": 133.79513,
+      "dec": -7.24515,
+      "file": "wise_0855.json",
+      "channels": 5
+    },
+    {
+      "name": "RW Aurigae",
+      "ra": 77.10625,
+      "dec": 30.40139,
+      "file": "rw_aurigae.json",
+      "channels": 5
+    },
+    {
+      "name": "R Draconis",
+      "ra": 248.33792,
+      "dec": 66.86861,
+      "file": "r_draconis.json",
+      "channels": 5
+    }
+  ]
+}

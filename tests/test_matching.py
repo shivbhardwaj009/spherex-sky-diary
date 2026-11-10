@@ -566,3 +566,4 @@ def test_schema_conformance_with_matching_fields(mock_known_eros):
 
     # Should validate without any exceptions
     validate_dict(catalog)
+

@@ -141,3 +141,4 @@ def generate_mock_known_catalog(
 
     logger.info("Generated offline known catalog with %d objects at %s", len(known_objects), out_file)
     return out_file
+

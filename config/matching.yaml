@@ -51,3 +51,4 @@ output:
   candidates_file: "data/output/candidates.json"
   validation_report_json: "data/output/validation_report.json"
   validation_report_md: "data/output/validation_report.md"
+

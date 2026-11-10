@@ -1,0 +1,31 @@
+{
+  "name": "Epsilon Indi B",
+  "ra": 330.84042,
+  "dec": -56.78611,
+  "notes": "Nearby brown dwarf binary system",
+  "spectrum": {
+    "wavelength_um": [
+      1.748,
+      1.932,
+      2.1061,
+      2.29,
+      2.4671
+    ],
+    "flux": [
+      -18.6498,
+      -25.6569,
+      -13.8739,
+      21.5532,
+      9.8994
+    ],
+    "flux_err": [
+      20.5967,
+      20.4892,
+      20.6525,
+      20.269,
+      20.5653
+    ]
+  },
+  "is_synthetic": true,
+  "extracted_at": "2026-11-10T15:51:18.733300+00:00"
+}

@@ -222,3 +222,4 @@ def match_candidates(
         updated_candidates.append(cand_copy)
 
     return updated_candidates
+
