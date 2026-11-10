@@ -1,0 +1,35 @@
+# SPHEREx Sky Diary — Image Processing Configuration (Module 2)
+# All algorithmic thresholds and parameters are defined here.
+
+background:
+  box_size: [32, 32]
+  filter_size: [3, 3]
+  sigma_clip_sigma: 3.0
+  sigma_clip_maxiters: 5
+
+masking:
+  outlier_sigma: 5.0
+  local_median_filter_size: 5
+  grow_pixels: 2
+  bit_adapter_bad: 1
+  bit_outlier: 2
+  bit_edge: 4
+
+alignment:
+  method: "reproject_interp"   # "reproject_interp" | "reproject_exact"
+  order: "bilinear"
+
+normalization:
+  fwhm: 3.5
+  threshold_sigma: 4.0
+  min_distance_px: 8.0
+  max_cross_epoch_scatter: 0.20
+  min_reference_stars: 4
+  aperture_radius_px: 3.5
+
+wavelength:
+  tolerance_um: 0.15
+
+output:
+  processed_dir: "data/output/processed"
+  file_format: "npz"

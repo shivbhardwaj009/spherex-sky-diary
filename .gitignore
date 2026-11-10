@@ -47,6 +47,7 @@ pnpm-debug.log*
 
 # Output large files / raw data
 data/output/cutouts/
+data/output/processed/*.npz
 data/output/*.fits
 data/output/*.tar.gz
 data/raw/

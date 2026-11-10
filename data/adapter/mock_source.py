@@ -145,14 +145,14 @@ class MockSource(EpochSource):
         stars: List[Dict[str, float]] = []
 
         cos_dec = math.cos(math.radians(region.dec_center))
-        # Distribute stars within 1.5x of the region radius
-        spread = region.radius_deg * 1.4
+        # Distribute stars comfortably inside the observable field of view
+        spread = (self.base_fov_deg / 2.0) * 0.82
 
         for s_idx in range(self.n_stars):
             dra = float(rng.uniform(-spread, spread) / cos_dec)
             ddec = float(rng.uniform(-spread, spread))
-            # Power-law / Pareto luminosity function (many faint, few bright)
-            flux = float(rng.pareto(a=1.5) * 80.0 + 40.0)
+            # Power-law / Pareto luminosity function (many moderate, several bright)
+            flux = float(rng.pareto(a=1.5) * 200.0 + 350.0)
 
             stars.append(
                 {

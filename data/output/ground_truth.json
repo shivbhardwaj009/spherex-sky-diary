@@ -1,9 +1,9 @@
 {
   "is_synthetic": true,
   "seed": 42,
-  "generated_at": "2026-11-10T14:49:55.872322+00:00",
+  "generated_at": "2026-11-10T15:05:41.141546+00:00",
   "region": {
-    "name": "ecliptic_plane_test",
+    "name": "test",
     "ra_center": 60.0,
     "dec_center": 20.0,
     "radius_deg": 0.2
@@ -289,7 +289,7 @@
   ],
   "stars_summary": {
     "star_count": 60,
-    "mean_flux": 217.45,
+    "mean_flux": 793.63,
     "variability_scatter_mean": 0.0286
   }
 }

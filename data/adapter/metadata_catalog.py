@@ -104,3 +104,4 @@ def read_catalog(path: Optional[Union[Path, str]] = None) -> pd.DataFrame:
         raise ValueError(f"Metadata catalog missing required columns: {missing}")
 
     return df
+

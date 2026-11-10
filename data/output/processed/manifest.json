@@ -1,0 +1,273 @@
+{
+  "schema_version": "1.0",
+  "pipeline_version": "v1.0-processing",
+  "processed_at": "2026-11-10T15:03:11.244580+00:00",
+  "is_synthetic": true,
+  "region": {
+    "name": "ecliptic_plane_test",
+    "ra_center": 60.0,
+    "dec_center": 20.0,
+    "radius_deg": 0.2
+  },
+  "fov_deg": 0.2,
+  "grid_shape": [
+    116,
+    116
+  ],
+  "ref_wcs_header": "WCSAXES =                    2 / Number of coordinate axes                      CRPIX1  =                 59.0 / Pixel coordinate of reference point            CRPIX2  =                 59.0 / Pixel coordinate of reference point            CDELT1  =  -0.0017222222222222 / [deg] Coordinate increment at reference point  CDELT2  =   0.0017222222222222 / [deg] Coordinate increment at reference point  CUNIT1  = 'deg'                / Units of coordinate increment and value        CUNIT2  = 'deg'                / Units of coordinate increment and value        CTYPE1  = 'RA---TAN'           / Right ascension, gnomonic projection           CTYPE2  = 'DEC--TAN'           / Declination, gnomonic projection               CRVAL1  =                 60.0 / [deg] Coordinate value at reference point      CRVAL2  =                 20.0 / [deg] Coordinate value at reference point      LONPOLE =                180.0 / [deg] Native longitude of celestial pole       LATPOLE =                 20.0 / [deg] Native latitude of celestial pole        MJDREF  =                  0.0 / [d] MJD of fiducial time                       RADESYS = 'ICRS'               / Equatorial coordinate system                   END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ",
+  "epochs": [
+    {
+      "epoch_id": "mock_epoch_01",
+      "date": "2026-01-16T00:39:00+00:00",
+      "file": "data/output/processed/mock_epoch_01.npz",
+      "normalization_factor": 1.00986
+    },
+    {
+      "epoch_id": "mock_epoch_02",
+      "date": "2026-01-22T19:35:00+00:00",
+      "file": "data/output/processed/mock_epoch_02.npz",
+      "normalization_factor": 0.98583
+    },
+    {
+      "epoch_id": "mock_epoch_03",
+      "date": "2026-01-23T07:42:00+00:00",
+      "file": "data/output/processed/mock_epoch_03.npz",
+      "normalization_factor": 0.98826
+    },
+    {
+      "epoch_id": "mock_epoch_04",
+      "date": "2026-02-07T11:05:00+00:00",
+      "file": "data/output/processed/mock_epoch_04.npz",
+      "normalization_factor": 1.02911
+    },
+    {
+      "epoch_id": "mock_epoch_05",
+      "date": "2026-04-19T14:49:00+00:00",
+      "file": "data/output/processed/mock_epoch_05.npz",
+      "normalization_factor": 1.02981
+    }
+  ],
+  "normalization_factors": {
+    "mock_epoch_01": 1.00986,
+    "mock_epoch_02": 0.98583,
+    "mock_epoch_03": 0.98826,
+    "mock_epoch_04": 1.02911,
+    "mock_epoch_05": 1.02981
+  },
+  "reference_stars_count": 27,
+  "reference_stars": [
+    {
+      "x": 16.57,
+      "y": 23.8,
+      "flux_mean": 2005.03,
+      "scatter": 0.0268
+    },
+    {
+      "x": 71.62,
+      "y": 50.95,
+      "flux_mean": 586.63,
+      "scatter": 0.0198
+    },
+    {
+      "x": 16.42,
+      "y": 104.99,
+      "flux_mean": 450.14,
+      "scatter": 0.0213
+    },
+    {
+      "x": 72.84,
+      "y": 83.22,
+      "flux_mean": 381.06,
+      "scatter": 0.0377
+    },
+    {
+      "x": 86.85,
+      "y": 102.71,
+      "flux_mean": 328.44,
+      "scatter": 0.0265
+    },
+    {
+      "x": 90.46,
+      "y": 51.01,
+      "flux_mean": 292.95,
+      "scatter": 0.0344
+    },
+    {
+      "x": 92.02,
+      "y": 33.82,
+      "flux_mean": 286.97,
+      "scatter": 0.0217
+    },
+    {
+      "x": 97.6,
+      "y": 96.68,
+      "flux_mean": 250.22,
+      "scatter": 0.0354
+    },
+    {
+      "x": 27.72,
+      "y": 81.73,
+      "flux_mean": 229.49,
+      "scatter": 0.1423
+    },
+    {
+      "x": 26.57,
+      "y": 102.73,
+      "flux_mean": 194.19,
+      "scatter": 0.0675
+    },
+    {
+      "x": 83.88,
+      "y": 71.89,
+      "flux_mean": 190.41,
+      "scatter": 0.0636
+    },
+    {
+      "x": 46.59,
+      "y": 49.61,
+      "flux_mean": 143.43,
+      "scatter": 0.1902
+    },
+    {
+      "x": 103.98,
+      "y": 16.73,
+      "flux_mean": 134.21,
+      "scatter": 0.0864
+    },
+    {
+      "x": 21.23,
+      "y": 15.29,
+      "flux_mean": 131.11,
+      "scatter": 0.0837
+    },
+    {
+      "x": 66.45,
+      "y": 99.56,
+      "flux_mean": 122.33,
+      "scatter": 0.1215
+    },
+    {
+      "x": 58.02,
+      "y": 24.21,
+      "flux_mean": 121.22,
+      "scatter": 0.1308
+    },
+    {
+      "x": 88.92,
+      "y": 16.99,
+      "flux_mean": 102.02,
+      "scatter": 0.1055
+    },
+    {
+      "x": 59.45,
+      "y": 89.28,
+      "flux_mean": 95.68,
+      "scatter": 0.1015
+    },
+    {
+      "x": 53.81,
+      "y": 57.72,
+      "flux_mean": 94.79,
+      "scatter": 0.058
+    },
+    {
+      "x": 44.66,
+      "y": 81.94,
+      "flux_mean": 92.34,
+      "scatter": 0.1199
+    },
+    {
+      "x": 44.24,
+      "y": 65.52,
+      "flux_mean": 92.25,
+      "scatter": 0.0561
+    },
+    {
+      "x": 20.3,
+      "y": 40.42,
+      "flux_mean": 91.28,
+      "scatter": 0.1168
+    },
+    {
+      "x": 56.91,
+      "y": 34.89,
+      "flux_mean": 86.13,
+      "scatter": 0.0643
+    },
+    {
+      "x": 31.67,
+      "y": 45.79,
+      "flux_mean": 80.62,
+      "scatter": 0.1221
+    },
+    {
+      "x": 66.7,
+      "y": 16.88,
+      "flux_mean": 79.55,
+      "scatter": 0.1426
+    },
+    {
+      "x": 104.89,
+      "y": 71.17,
+      "flux_mean": 77.49,
+      "scatter": 0.1755
+    },
+    {
+      "x": 48.77,
+      "y": 12.23,
+      "flux_mean": 67.57,
+      "scatter": 0.1562
+    }
+  ],
+  "config_used": {
+    "data_source": "mock",
+    "region": {
+      "name": "ecliptic_plane_test",
+      "ra_center": 60.0,
+      "dec_center": 20.0,
+      "radius_deg": 0.2
+    },
+    "fov_deg": 0.2,
+    "output_dir": "data/output",
+    "seed": 42,
+    "background": {
+      "box_size": [
+        32,
+        32
+      ],
+      "filter_size": [
+        3,
+        3
+      ],
+      "sigma_clip_sigma": 3.0,
+      "sigma_clip_maxiters": 5
+    },
+    "masking": {
+      "outlier_sigma": 5.0,
+      "local_median_filter_size": 5,
+      "grow_pixels": 2,
+      "bit_adapter_bad": 1,
+      "bit_outlier": 2,
+      "bit_edge": 4
+    },
+    "alignment": {
+      "method": "reproject_interp",
+      "order": "bilinear"
+    },
+    "normalization": {
+      "fwhm": 3.5,
+      "threshold_sigma": 4.0,
+      "min_distance_px": 8.0,
+      "max_cross_epoch_scatter": 0.2,
+      "min_reference_stars": 4,
+      "aperture_radius_px": 3.5
+    },
+    "wavelength": {
+      "tolerance_um": 0.15
+    },
+    "output": {
+      "processed_dir": "data/output/processed",
+      "file_format": "npz"
+    }
+  }
+}

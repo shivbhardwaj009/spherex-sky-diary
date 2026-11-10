@@ -176,3 +176,4 @@ The metadata catalog provides a fast tabular index for archive searches and pipe
 * **API:**
   * `build_catalog(source, region) -> Path`
   * `read_catalog(path) -> pd.DataFrame`
+

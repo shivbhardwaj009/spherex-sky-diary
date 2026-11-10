@@ -126,3 +126,4 @@ def query_irsa_cutout_example(
     except Exception as exc:
         # Network/auth access intentionally not executed during unit tests
         return None
+

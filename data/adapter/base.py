@@ -96,3 +96,4 @@ class EpochSource(ABC):
     def get_ground_truth(self) -> Optional[Dict[str, Any]]:
         """Retrieve synthetic ground truth metadata if available (None for real data)."""
         pass
+
