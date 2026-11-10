@@ -1,0 +1,6 @@
+epoch_id,date,band_or_channel,ra_min,ra_max,dec_min,dec_max,file_path,is_synthetic
+mock_epoch_01,2026-01-16T00:39:00+00:00,bands_1-102,59.787164,60.212836,19.8,20.2,synthetic://ecliptic_plane_test/mock_epoch_01.fits,True
+mock_epoch_02,2026-01-22T19:35:00+00:00,bands_1-102,59.787164,60.212836,19.8,20.2,synthetic://ecliptic_plane_test/mock_epoch_02.fits,True
+mock_epoch_03,2026-01-23T07:42:00+00:00,bands_1-102,59.787164,60.212836,19.8,20.2,synthetic://ecliptic_plane_test/mock_epoch_03.fits,True
+mock_epoch_04,2026-02-07T11:05:00+00:00,bands_1-102,59.787164,60.212836,19.8,20.2,synthetic://ecliptic_plane_test/mock_epoch_04.fits,True
+mock_epoch_05,2026-04-19T14:49:00+00:00,bands_1-102,59.787164,60.212836,19.8,20.2,synthetic://ecliptic_plane_test/mock_epoch_05.fits,True

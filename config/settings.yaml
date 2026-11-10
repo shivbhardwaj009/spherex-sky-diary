@@ -7,3 +7,4 @@ region:
 fov_deg: 0.2
 output_dir: data/output
 seed: 42
+

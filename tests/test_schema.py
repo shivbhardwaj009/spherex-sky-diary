@@ -207,3 +207,4 @@ def test_cli_validator(candidates_path):
     )
     assert res.returncode == 0
     assert "[OK] Validation passed" in res.stdout
+

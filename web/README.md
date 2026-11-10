@@ -7,3 +7,4 @@ Static Next.js web application consuming `data/output/candidates.json` and `data
 - Zero heavy processing in the browser or at request time.
 - Integrated Aladin Lite interactive sky viewer.
 - Displays "TEST DATA" badge when `is_synthetic: true`.
+

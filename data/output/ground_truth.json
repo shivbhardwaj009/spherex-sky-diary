@@ -1,0 +1,295 @@
+{
+  "is_synthetic": true,
+  "seed": 42,
+  "generated_at": "2026-11-10T14:49:55.872322+00:00",
+  "region": {
+    "name": "ecliptic_plane_test",
+    "ra_center": 60.0,
+    "dec_center": 20.0,
+    "radius_deg": 0.2
+  },
+  "fov_deg": 0.2,
+  "image_size": 256,
+  "movers": [
+    {
+      "object_id": "mock_mover_01",
+      "base_flux": 701.2649785707379,
+      "motion": {
+        "ra_rate_arcsec_per_day": 19.583,
+        "dec_rate_arcsec_per_day": 5.577
+      },
+      "positions_per_epoch": [
+        {
+          "epoch_id": "mock_epoch_01",
+          "date": "2026-01-16T00:39:00+00:00",
+          "ra": 60.034166,
+          "dec": 19.979181,
+          "pixel_x": 84.831,
+          "pixel_y": 103.215,
+          "in_bounds": true
+        },
+        {
+          "epoch_id": "mock_epoch_02",
+          "date": "2026-01-22T19:35:00+00:00",
+          "ra": 60.073466,
+          "dec": 19.989699,
+          "pixel_x": 39.481,
+          "pixel_y": 116.726,
+          "in_bounds": true
+        },
+        {
+          "epoch_id": "mock_epoch_03",
+          "date": "2026-01-23T07:42:00+00:00",
+          "ra": 60.076389,
+          "dec": 19.990481,
+          "pixel_x": 34.074,
+          "pixel_y": 115.568,
+          "in_bounds": true
+        },
+        {
+          "epoch_id": "mock_epoch_04",
+          "date": "2026-02-07T11:05:00+00:00",
+          "ra": 60.164039,
+          "dec": 20.013938,
+          "pixel_x": -69.752,
+          "pixel_y": 145.78,
+          "in_bounds": false
+        },
+        {
+          "epoch_id": "mock_epoch_05",
+          "date": "2026-04-19T14:49:00+00:00",
+          "ra": 60.575951,
+          "dec": 20.124175,
+          "pixel_x": -565.469,
+          "pixel_y": 287.234,
+          "in_bounds": false
+        }
+      ]
+    },
+    {
+      "object_id": "mock_mover_02",
+      "base_flux": 613.1146225825648,
+      "motion": {
+        "ra_rate_arcsec_per_day": 31.642,
+        "dec_rate_arcsec_per_day": 9.845
+      },
+      "positions_per_epoch": [
+        {
+          "epoch_id": "mock_epoch_01",
+          "date": "2026-01-16T00:39:00+00:00",
+          "ra": 59.931945,
+          "dec": 20.074359,
+          "pixel_x": 207.75,
+          "pixel_y": 225.055,
+          "in_bounds": true
+        },
+        {
+          "epoch_id": "mock_epoch_02",
+          "date": "2026-01-22T19:35:00+00:00",
+          "ra": 59.995446,
+          "dec": 20.092926,
+          "pixel_x": 133.327,
+          "pixel_y": 248.837,
+          "in_bounds": true
+        },
+        {
+          "epoch_id": "mock_epoch_03",
+          "date": "2026-01-23T07:42:00+00:00",
+          "ra": 60.000168,
+          "dec": 20.094306,
+          "pixel_x": 125.758,
+          "pixel_y": 248.444,
+          "in_bounds": true
+        },
+        {
+          "epoch_id": "mock_epoch_04",
+          "date": "2026-02-07T11:05:00+00:00",
+          "ra": 60.141792,
+          "dec": 20.135714,
+          "pixel_x": -42.864,
+          "pixel_y": 301.63,
+          "in_bounds": false
+        },
+        {
+          "epoch_id": "mock_epoch_05",
+          "date": "2026-04-19T14:49:00+00:00",
+          "ra": 60.807358,
+          "dec": 20.330312,
+          "pixel_x": -842.349,
+          "pixel_y": 552.269,
+          "in_bounds": false
+        }
+      ]
+    },
+    {
+      "object_id": "mock_mover_03",
+      "base_flux": 1180.9867423159744,
+      "motion": {
+        "ra_rate_arcsec_per_day": 10.505,
+        "dec_rate_arcsec_per_day": -6.516
+      },
+      "positions_per_epoch": [
+        {
+          "epoch_id": "mock_epoch_01",
+          "date": "2026-01-16T00:39:00+00:00",
+          "ra": 59.977976,
+          "dec": 19.937488,
+          "pixel_x": 152.434,
+          "pixel_y": 49.844,
+          "in_bounds": true
+        },
+        {
+          "epoch_id": "mock_epoch_02",
+          "date": "2026-01-22T19:35:00+00:00",
+          "ra": 59.999057,
+          "dec": 19.925199,
+          "pixel_x": 128.987,
+          "pixel_y": 34.147,
+          "in_bounds": true
+        },
+        {
+          "epoch_id": "mock_epoch_03",
+          "date": "2026-01-23T07:42:00+00:00",
+          "ra": 60.000625,
+          "dec": 19.924285,
+          "pixel_x": 125.209,
+          "pixel_y": 30.817,
+          "in_bounds": true
+        },
+        {
+          "epoch_id": "mock_epoch_04",
+          "date": "2026-02-07T11:05:00+00:00",
+          "ra": 60.047642,
+          "dec": 19.896879,
+          "pixel_x": 70.196,
+          "pixel_y": -4.144,
+          "in_bounds": false
+        },
+        {
+          "epoch_id": "mock_epoch_05",
+          "date": "2026-04-19T14:49:00+00:00",
+          "ra": 60.268602,
+          "dec": 19.768083,
+          "pixel_x": -196.793,
+          "pixel_y": -169.506,
+          "in_bounds": false
+        }
+      ]
+    },
+    {
+      "object_id": "mock_mover_04",
+      "base_flux": 1054.3347949335318,
+      "motion": {
+        "ra_rate_arcsec_per_day": 19.678,
+        "dec_rate_arcsec_per_day": -13.778
+      },
+      "positions_per_epoch": [
+        {
+          "epoch_id": "mock_epoch_01",
+          "date": "2026-01-16T00:39:00+00:00",
+          "ra": 59.997009,
+          "dec": 20.069137,
+          "pixel_x": 129.527,
+          "pixel_y": 218.354,
+          "in_bounds": true
+        },
+        {
+          "epoch_id": "mock_epoch_02",
+          "date": "2026-01-22T19:35:00+00:00",
+          "ra": 60.0365,
+          "dec": 20.043155,
+          "pixel_x": 83.962,
+          "pixel_y": 185.135,
+          "in_bounds": true
+        },
+        {
+          "epoch_id": "mock_epoch_03",
+          "date": "2026-01-23T07:42:00+00:00",
+          "ra": 60.039437,
+          "dec": 20.041223,
+          "pixel_x": 78.538,
+          "pixel_y": 180.502,
+          "in_bounds": true
+        },
+        {
+          "epoch_id": "mock_epoch_04",
+          "date": "2026-02-07T11:05:00+00:00",
+          "ra": 60.127511,
+          "dec": 19.983276,
+          "pixel_x": -25.85,
+          "pixel_y": 106.495,
+          "in_bounds": false
+        },
+        {
+          "epoch_id": "mock_epoch_05",
+          "date": "2026-04-19T14:49:00+00:00",
+          "ra": 60.541418,
+          "dec": 19.710953,
+          "pixel_x": -525.671,
+          "pixel_y": -241.85,
+          "in_bounds": false
+        }
+      ]
+    },
+    {
+      "object_id": "mock_mover_05",
+      "base_flux": 1182.1026789513553,
+      "motion": {
+        "ra_rate_arcsec_per_day": 11.71,
+        "dec_rate_arcsec_per_day": 19.145
+      },
+      "positions_per_epoch": [
+        {
+          "epoch_id": "mock_epoch_01",
+          "date": "2026-01-16T00:39:00+00:00",
+          "ra": 60.042322,
+          "dec": 20.048645,
+          "pixel_x": 75.043,
+          "pixel_y": 192.13,
+          "in_bounds": true
+        },
+        {
+          "epoch_id": "mock_epoch_02",
+          "date": "2026-01-22T19:35:00+00:00",
+          "ra": 60.065823,
+          "dec": 20.084748,
+          "pixel_x": 48.723,
+          "pixel_y": 238.385,
+          "in_bounds": true
+        },
+        {
+          "epoch_id": "mock_epoch_03",
+          "date": "2026-01-23T07:42:00+00:00",
+          "ra": 60.06757,
+          "dec": 20.087433,
+          "pixel_x": 44.732,
+          "pixel_y": 239.662,
+          "in_bounds": true
+        },
+        {
+          "epoch_id": "mock_epoch_04",
+          "date": "2026-02-07T11:05:00+00:00",
+          "ra": 60.119983,
+          "dec": 20.167951,
+          "pixel_x": -16.625,
+          "pixel_y": 342.873,
+          "in_bounds": false
+        },
+        {
+          "epoch_id": "mock_epoch_05",
+          "date": "2026-04-19T14:49:00+00:00",
+          "ra": 60.3663,
+          "dec": 20.546352,
+          "pixel_x": -312.302,
+          "pixel_y": 826.937,
+          "in_bounds": false
+        }
+      ]
+    }
+  ],
+  "stars_summary": {
+    "star_count": 60,
+    "mean_flux": 217.45,
+    "variability_scatter_mean": 0.0286
+  }
+}

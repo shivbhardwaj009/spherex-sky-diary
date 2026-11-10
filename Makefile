@@ -25,3 +25,4 @@ pipeline:
 
 web:
 	npm run dev
+
