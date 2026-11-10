@@ -24,12 +24,12 @@ from docs.validate import (
 
 
 @pytest.fixture(scope="session")
-def candidates_path():
+def candidates_path(tmp_path_factory):
     """Ensure mock candidates catalog is generated."""
-    path = REPO_ROOT / "data" / "output" / "candidates.json"
-    if not path.exists():
-        generate_mock_catalog()
-    return path
+    tmp_dir = tmp_path_factory.mktemp("schema_mock")
+    mock_file = tmp_dir / "candidates_mock.json"
+    generate_mock_catalog(output_file=mock_file)
+    return mock_file
 
 
 @pytest.fixture

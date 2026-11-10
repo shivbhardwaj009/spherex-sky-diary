@@ -151,6 +151,7 @@ def generate_solar_reflectance_spectrum(
 
 def generate_mock_catalog(
     config_path: Path | str = REPO_ROOT / "config" / "settings.yaml",
+    output_file: Optional[Path | str] = None,
 ) -> Path:
     """Generate mock dataset conforming to schema 1.0."""
     cfg = load_config(config_path)
@@ -323,7 +324,8 @@ def generate_mock_catalog(
     # Validate against contract schema before writing
     validate_dict(catalog_data)
 
-    out_file = output_dir / "candidates.json"
+    out_file = Path(output_file) if output_file is not None else (output_dir / "candidates.json")
+    out_file.parent.mkdir(parents=True, exist_ok=True)
     with open(out_file, "w", encoding="utf-8") as f:
         json.dump(catalog_data, f, indent=2)
 
