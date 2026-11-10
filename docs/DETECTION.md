@@ -102,3 +102,4 @@ Items for Shiv, Chaitanya, and Harnoor:
   - Verify whether SPHEREx Level 3/4 pipelines provide synthetic forward-modeled static templates or raw coadd differencing.
 - [ ] **3. Cutout Extraction Selection:**
   - Cutouts are currently extracted from the difference images centered on the mover centroid. Confirm whether the web UI displays difference cutouts or raw calibrated cutouts.
+

@@ -48,6 +48,7 @@ pnpm-debug.log*
 # Output large files / raw data
 data/output/cutouts/
 data/output/processed/*.npz
+FieldShift_POC.pdf
 data/output/*.fits
 data/output/*.tar.gz
 data/raw/

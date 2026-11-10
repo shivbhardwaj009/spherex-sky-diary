@@ -135,3 +135,4 @@ def extract_sources(
         )
 
     return detections
+

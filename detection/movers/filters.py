@@ -113,3 +113,4 @@ def reject_bad_fit(
         True if rejected (poor fit), False if valid tracklet.
     """
     return tracklet.rms_residual_arcsec > max_residual_arcsec
+

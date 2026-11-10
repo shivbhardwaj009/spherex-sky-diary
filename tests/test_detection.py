@@ -361,3 +361,4 @@ def test_detection_determinism(tmp_path: Path):
     d2["generated_at"] = "FIXED"
 
     assert d1 == d2, "Outputs across repeated runs with identical seed must match bitwise"
+

@@ -87,3 +87,4 @@ def pairwise_difference(
     significance[invalid] = 0.0
 
     return diff, significance, combined_mask
+

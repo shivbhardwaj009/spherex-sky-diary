@@ -107,3 +107,4 @@ def build_static_model(
     }
 
     return static_model, scatter, metadata
+

@@ -42,3 +42,4 @@ output:
   cutouts_dir: "data/output/cutouts"
   candidates_file: "data/output/candidates.json"
   eval_file: "data/output/detection_eval.json"
+

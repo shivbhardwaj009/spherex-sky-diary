@@ -90,3 +90,4 @@ def compute_confidence(
 
     confidence = min(1.0, max(0.0, total_score))
     return round(float(confidence), 3)
+
