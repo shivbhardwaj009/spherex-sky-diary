@@ -29,6 +29,10 @@
       "exclusiveMinimum": 0.0,
       "description": "Field of view diameter/width in degrees for the patch."
     },
+    "metadata": {
+      "type": "object",
+      "description": "Optional pipeline and execution metadata (e.g., matching_source: 'skybot' | 'offline_catalog')."
+    },
     "region": {
       "type": "object",
       "required": [
@@ -140,6 +144,23 @@
               "null"
             ],
             "description": "Catalog or MPC designation if known, or null if unknown."
+          },
+          "match_distance_arcsec": {
+            "type": "number",
+            "minimum": 0.0,
+            "description": "Mean positional separation in arcseconds between detections and predicted ephemeris."
+          },
+          "matched_epoch_count": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Number of observation epochs where the candidate matched the ephemeris within tolerance."
+          },
+          "runner_up_match": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Second-closest matching known body designation in case of ambiguity, or null."
           },
           "confidence": {
             "type": "number",

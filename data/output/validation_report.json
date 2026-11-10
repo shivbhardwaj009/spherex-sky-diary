@@ -1,0 +1,64 @@
+{
+  "evaluation_timestamp": "2026-11-10T15:40:24.515548+00:00",
+  "is_synthetic": true,
+  "region": {
+    "name": "ecliptic_plane_test",
+    "ra_center": 60.0,
+    "dec_center": 20.0,
+    "radius_deg": 0.2
+  },
+  "summary": {
+    "total_candidates": 3,
+    "labeled_known_count": 1,
+    "labeled_unknown_count": 2,
+    "total_known_in_field": 4,
+    "recovered_known_count": 1,
+    "missed_known_count": 3,
+    "known_recovery_recall": 0.25,
+    "mean_match_distance_arcsec": 0.88,
+    "median_match_distance_arcsec": 0.88,
+    "poor_match_count": 0
+  },
+  "recovered_objects": [
+    {
+      "name": "(433) Eros",
+      "designation": "(433) Eros",
+      "object_type": "asteroid",
+      "magnitude": 14.5,
+      "speed_arcsec_day": 20.36,
+      "matched_candidate_id": "mov_001",
+      "match_distance_arcsec": 0.88,
+      "matched_epochs": 3
+    }
+  ],
+  "missed_objects": [
+    {
+      "name": "(1) Ceres",
+      "designation": "(1) Ceres",
+      "object_type": "asteroid",
+      "magnitude": 15.3,
+      "speed_arcsec_day": 33.14,
+      "probable_cause": "unrecovered_tracklet",
+      "epoch_coverage": 5
+    },
+    {
+      "name": "(4) Vesta",
+      "designation": "(4) Vesta",
+      "object_type": "asteroid",
+      "magnitude": 16.1,
+      "speed_arcsec_day": 12.36,
+      "probable_cause": "unrecovered_tracklet",
+      "epoch_coverage": 5
+    },
+    {
+      "name": "(10) Hygiea",
+      "designation": "(10) Hygiea",
+      "object_type": "asteroid",
+      "magnitude": 19.8,
+      "speed_arcsec_day": 12.65,
+      "probable_cause": "faint_magnitude_below_snr_threshold",
+      "epoch_coverage": 3
+    }
+  ],
+  "poor_matches": []
+}

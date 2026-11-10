@@ -1,0 +1,53 @@
+# SPHEREx Sky Diary — Solar System Catalog Matching Configuration
+#
+# Configures cross-matching of detected mover tracklets against IMCCE SkyBoT
+# and JPL Horizons solar system ephemerides.
+
+matching:
+  # Spatial separation tolerance (arcseconds) between detected position and predicted ephemeris
+  # SPHEREx pixel scale is ~6.2 arcsec/pixel. 8.0 arcseconds allows ~1.3 pixels of astrometric uncertainty.
+  position_tolerance_arcsec: 8.0
+
+  # Apparent motion rate tolerance (arcsec/day)
+  rate_tolerance_arcsec_per_day: 8.0
+
+  # Motion direction angle tolerance in degrees
+  direction_tolerance_deg: 35.0
+
+  # Minimum fraction of candidate detections that must match the predicted positions
+  min_matched_fraction: 0.50
+
+  # Minimum absolute count of epochs matching ephemeris
+  min_matched_epochs: 2
+
+  # Maximum expected apparent rate (arcsec/day) for cone search radius expansion across epochs
+  # Typical Main Belt Asteroid: 10 - 40 arcsec/day. Fast NEOs: up to 100 arcsec/day.
+  max_search_rate_arcsec_per_day: 50.0
+
+service:
+  # Service provider: 'skybot' (IMCCE), 'horizons' (JPL), or 'mock'
+  provider: "skybot"
+
+  # Timeout in seconds for HTTP requests
+  timeout_sec: 15
+
+  # Maximum retry attempts with exponential backoff on HTTP/transient errors
+  max_retries: 3
+
+  # Initial retry delay factor in seconds
+  backoff_factor: 1.5
+
+  # Minimum delay between successive network calls (rate limiting)
+  rate_limit_delay_sec: 0.5
+
+cache:
+  # Directory for on-disk query caching
+  cache_dir: "matching/cache"
+
+  # Static offline catalog fallback for zero-network environments
+  offline_catalog_path: "matching/cache/offline_known.json"
+
+output:
+  candidates_file: "data/output/candidates.json"
+  validation_report_json: "data/output/validation_report.json"
+  validation_report_md: "data/output/validation_report.md"

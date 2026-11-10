@@ -49,6 +49,10 @@ pnpm-debug.log*
 data/output/cutouts/
 data/output/processed/*.npz
 FieldShift_POC.pdf
+
+# Matching live query cache
+matching/cache/skybot_*.json
+!matching/cache/offline_known.json
 data/output/*.fits
 data/output/*.tar.gz
 data/raw/

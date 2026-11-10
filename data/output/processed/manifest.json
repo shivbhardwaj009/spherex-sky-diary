@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "pipeline_version": "v1.0-processing",
-  "processed_at": "2026-11-10T15:20:22.620745+00:00",
+  "processed_at": "2026-11-10T15:40:19.415762+00:00",
   "is_synthetic": true,
   "region": {
     "name": "ecliptic_plane_test",

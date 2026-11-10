@@ -1,0 +1,219 @@
+[
+  {
+    "name": "(433) Eros",
+    "designation": "(433) Eros",
+    "object_type": "asteroid",
+    "magnitude": 14.5,
+    "positions": [
+      {
+        "epoch_id": "mock_epoch_01",
+        "date": "2026-01-16T00:39:00+00:00",
+        "ra": 60.034166,
+        "dec": 19.979181,
+        "ra_rate_arcsec_per_day": 19.583,
+        "dec_rate_arcsec_per_day": 5.577,
+        "v_mag": 14.5
+      },
+      {
+        "epoch_id": "mock_epoch_02",
+        "date": "2026-01-22T19:35:00+00:00",
+        "ra": 60.073466,
+        "dec": 19.989699,
+        "ra_rate_arcsec_per_day": 19.583,
+        "dec_rate_arcsec_per_day": 5.577,
+        "v_mag": 14.5
+      },
+      {
+        "epoch_id": "mock_epoch_03",
+        "date": "2026-01-23T07:42:00+00:00",
+        "ra": 60.076389,
+        "dec": 19.990481,
+        "ra_rate_arcsec_per_day": 19.583,
+        "dec_rate_arcsec_per_day": 5.577,
+        "v_mag": 14.5
+      },
+      {
+        "epoch_id": "mock_epoch_04",
+        "date": "2026-02-07T11:05:00+00:00",
+        "ra": 60.164039,
+        "dec": 20.013938,
+        "ra_rate_arcsec_per_day": 19.583,
+        "dec_rate_arcsec_per_day": 5.577,
+        "v_mag": 14.5
+      },
+      {
+        "epoch_id": "mock_epoch_05",
+        "date": "2026-04-19T14:49:00+00:00",
+        "ra": 60.575951,
+        "dec": 20.124175,
+        "ra_rate_arcsec_per_day": 19.583,
+        "dec_rate_arcsec_per_day": 5.577,
+        "v_mag": 14.5
+      }
+    ],
+    "mean_ra_rate": 19.583,
+    "mean_dec_rate": 5.577,
+    "metadata": {
+      "source": "ground_truth_synthetic",
+      "mover_id": "mock_mover_01"
+    }
+  },
+  {
+    "name": "(1) Ceres",
+    "designation": "(1) Ceres",
+    "object_type": "asteroid",
+    "magnitude": 15.3,
+    "positions": [
+      {
+        "epoch_id": "mock_epoch_01",
+        "date": "2026-01-16T00:39:00+00:00",
+        "ra": 59.931945,
+        "dec": 20.074359,
+        "ra_rate_arcsec_per_day": 31.642,
+        "dec_rate_arcsec_per_day": 9.845,
+        "v_mag": 15.3
+      },
+      {
+        "epoch_id": "mock_epoch_02",
+        "date": "2026-01-22T19:35:00+00:00",
+        "ra": 59.995446,
+        "dec": 20.092926,
+        "ra_rate_arcsec_per_day": 31.642,
+        "dec_rate_arcsec_per_day": 9.845,
+        "v_mag": 15.3
+      },
+      {
+        "epoch_id": "mock_epoch_03",
+        "date": "2026-01-23T07:42:00+00:00",
+        "ra": 60.000168,
+        "dec": 20.094306,
+        "ra_rate_arcsec_per_day": 31.642,
+        "dec_rate_arcsec_per_day": 9.845,
+        "v_mag": 15.3
+      },
+      {
+        "epoch_id": "mock_epoch_04",
+        "date": "2026-02-07T11:05:00+00:00",
+        "ra": 60.141792,
+        "dec": 20.135714,
+        "ra_rate_arcsec_per_day": 31.642,
+        "dec_rate_arcsec_per_day": 9.845,
+        "v_mag": 15.3
+      },
+      {
+        "epoch_id": "mock_epoch_05",
+        "date": "2026-04-19T14:49:00+00:00",
+        "ra": 60.807358,
+        "dec": 20.330312,
+        "ra_rate_arcsec_per_day": 31.642,
+        "dec_rate_arcsec_per_day": 9.845,
+        "v_mag": 15.3
+      }
+    ],
+    "mean_ra_rate": 31.642,
+    "mean_dec_rate": 9.845,
+    "metadata": {
+      "source": "ground_truth_synthetic",
+      "mover_id": "mock_mover_02"
+    }
+  },
+  {
+    "name": "(4) Vesta",
+    "designation": "(4) Vesta",
+    "object_type": "asteroid",
+    "magnitude": 16.1,
+    "positions": [
+      {
+        "epoch_id": "mock_epoch_01",
+        "date": "2026-01-16T00:39:00+00:00",
+        "ra": 59.977976,
+        "dec": 19.937488,
+        "ra_rate_arcsec_per_day": 10.505,
+        "dec_rate_arcsec_per_day": -6.516,
+        "v_mag": 16.1
+      },
+      {
+        "epoch_id": "mock_epoch_02",
+        "date": "2026-01-22T19:35:00+00:00",
+        "ra": 59.999057,
+        "dec": 19.925199,
+        "ra_rate_arcsec_per_day": 10.505,
+        "dec_rate_arcsec_per_day": -6.516,
+        "v_mag": 16.1
+      },
+      {
+        "epoch_id": "mock_epoch_03",
+        "date": "2026-01-23T07:42:00+00:00",
+        "ra": 60.000625,
+        "dec": 19.924285,
+        "ra_rate_arcsec_per_day": 10.505,
+        "dec_rate_arcsec_per_day": -6.516,
+        "v_mag": 16.1
+      },
+      {
+        "epoch_id": "mock_epoch_04",
+        "date": "2026-02-07T11:05:00+00:00",
+        "ra": 60.047642,
+        "dec": 19.896879,
+        "ra_rate_arcsec_per_day": 10.505,
+        "dec_rate_arcsec_per_day": -6.516,
+        "v_mag": 16.1
+      },
+      {
+        "epoch_id": "mock_epoch_05",
+        "date": "2026-04-19T14:49:00+00:00",
+        "ra": 60.268602,
+        "dec": 19.768083,
+        "ra_rate_arcsec_per_day": 10.505,
+        "dec_rate_arcsec_per_day": -6.516,
+        "v_mag": 16.1
+      }
+    ],
+    "mean_ra_rate": 10.505,
+    "mean_dec_rate": -6.516,
+    "metadata": {
+      "source": "ground_truth_synthetic",
+      "mover_id": "mock_mover_03"
+    }
+  },
+  {
+    "name": "(10) Hygiea",
+    "designation": "(10) Hygiea",
+    "object_type": "asteroid",
+    "magnitude": 19.8,
+    "positions": [
+      {
+        "epoch_id": "mock_epoch_01",
+        "date": "2026-01-16T00:39:00+00:00",
+        "ra": 60.015,
+        "dec": 20.025,
+        "ra_rate_arcsec_per_day": 12.0,
+        "dec_rate_arcsec_per_day": 4.0,
+        "v_mag": 19.8
+      },
+      {
+        "epoch_id": "mock_epoch_02",
+        "date": "2026-01-22T19:35:00+00:00",
+        "ra": 60.038,
+        "dec": 20.032,
+        "ra_rate_arcsec_per_day": 12.0,
+        "dec_rate_arcsec_per_day": 4.0,
+        "v_mag": 19.8
+      },
+      {
+        "epoch_id": "mock_epoch_03",
+        "date": "2026-01-23T07:42:00+00:00",
+        "ra": 60.04,
+        "dec": 20.033,
+        "ra_rate_arcsec_per_day": 12.0,
+        "dec_rate_arcsec_per_day": 4.0,
+        "v_mag": 19.8
+      }
+    ],
+    "mean_ra_rate": 12.0,
+    "mean_dec_rate": 4.0,
+    "metadata": {
+      "source": "synthetic_miss_benchmark"
+    }
+  }
+]

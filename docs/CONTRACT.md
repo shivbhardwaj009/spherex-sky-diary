@@ -29,6 +29,7 @@ The **SPHEREx Sky Diary** operates on a decoupled, static-file architecture:
 | `data_version` | `string` | No | Semantic version or build tag of the dataset (e.g., `"v2026.1-preview"`). |
 | `generated_at` | `string` | No | ISO 8601 UTC timestamp of creation (e.g., `"2026-03-29T12:00:00Z"`). |
 | `fov_deg` | `number` | No | Field of view size (width/diameter) in degrees (`> 0.0`). |
+| `metadata` | `object` | No | Pipeline and matching execution metadata (e.g. `matching_source`). |
 | `region` | `object` | **Yes** | Geographic / celestial targeting definition. |
 | `epochs` | `array` | **Yes** | Ordered list of observation epochs (`minItems: 1`). |
 | `movers` | `array` | **Yes** | List of detected moving objects / track candidates. |
@@ -65,6 +66,9 @@ The **SPHEREx Sky Diary** operates on a decoupled, static-file architecture:
 | `dec` | `number` | **Yes** | Reference Dec in degrees (`-90.0 <= dec <= 90.0`). |
 | `type` | `string` | **Yes** | Enumeration: `"known"` (matched) or `"unknown"` (unmatched/new candidate). |
 | `match_name` | `string \| null` | **Yes** | Name of matched solar system object (e.g., `"(433) Eros"`), or `null` if unknown. |
+| `match_distance_arcsec` | `number` | No | Mean positional separation (arcsec) from predicted ephemeris. |
+| `matched_epoch_count` | `integer` | No | Number of observation epochs confirming the ephemeris track. |
+| `runner_up_match` | `string \| null` | No | Ambiguity resolution runner-up matched body name, or `null`. |
 | `confidence` | `number` | **Yes** | Classification confidence score between `0.0` and `1.0`. |
 | `is_synthetic` | `boolean` | **Yes** | `true` if synthetic test data. **Mandates "TEST DATA" badge in UI**. |
 | `motion` | `object` | **Yes** | Apparent velocity vector. |
